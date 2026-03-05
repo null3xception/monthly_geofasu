@@ -1,0 +1,16 @@
+[general]
+name=Monthly GeoFASU
+qgisMinimumVersion=3.0
+description=Generate Monthly GeoFASU — load a delimited text CSV (WKT or X/Y) via QGIS core, then export to GeoPackage with optional styles and tracklog.
+version=1.0.0
+author=Geser Jan Yanga
+email=g.yanga.psa@gmail.com
+about=Uses QGIS native delimited text provider and processing algorithms to convert CSV files with WKT or X/Y coordinates into GeoPackage layers. Supports custom QML styles and tracklog GeoPackage loading.
+tracker=https://github.com/yourrepo/monthly_geofasu/issues
+repository=https://github.com/yourrepo/monthly_geofasu
+tags=csv, geopackage, gpkg, convert, wkt, vector, tracklog
+homepage=https://github.com/yourrepo/monthly_geofasu
+category=Plugins
+icon=icon.png
+experimental=False
+deprecated=False
