@@ -890,7 +890,7 @@ class CsvToGpkgDialog(QDialog):
         btn_tqml.setSizePolicy(QSizePolicy.Preferred, QSizePolicy.Fixed)
         btn_tqml.clicked.connect(self._browse_tracklog_qml)
         btn_clear_tqml = QPushButton("✕"); btn_clear_tqml.setObjectName("clear_qml")
-        btn_clear_tqml.setFixedWidth(28)
+        btn_clear_tqml.setSizePolicy(QSizePolicy.Preferred, QSizePolicy.Fixed)
         btn_clear_tqml.clicked.connect(self._clear_tracklog_qml)
         h_tqml.addWidget(self.tracklog_qml_edit)
         h_tqml.addWidget(btn_tqml)
